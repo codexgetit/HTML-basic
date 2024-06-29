@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+        <form action="/action.php"><!-- back end of form(but it is not work) -->
+         <input type="text"placeholder="username">
+         <input type="password"placeholder="passwort">
+         <br>
+         <br>  
+         <!-- to sellect only one value(radio) -->
+         <h2>Select Your Class</h2>
+         <input type="radio" value="class 11" name="class">class 11
+         <br>
+         <input type="radio" value="class 12" name="class">class 12
+         <br>
+         <br>
+
+
+        <!-- to select more then one value(checkbox) -->
+        <h2>Select your Subject</h2>
+         <input type="checkbox" value="Math" name="subject">Math    <br>
+         <input type="checkbox" value="biology" name="subject">biology    <br>
+         <input type="checkbox" value="chemistry" name="subject">chemistry    <br>
+         <input type="checkbox" value="physics" name="subject">physics    <br>
+         <input type="checkbox" value="English" name="subject">English    <br> <br>
+
+
+
+         <!-- option for select city -->
+         <h2>Select your city</h2>
+         <select name ="city" id="city">
+            <option value="Delhi">Delhi</option>
+            <option value="pune">pune</option>
+            <option value="Banglore">Banglore</option>
+            <option value="mumbai">mumbai</option>
+            
+         </select>
+         <input type="submit" value="submit">
+         
+        
+    </main>
+</body>
+</html>
